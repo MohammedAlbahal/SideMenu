@@ -1,5 +1,5 @@
 # SideMenu
-Left Side Menu \ Side Bar with modern  interface for iOS 
+A customizable, interactive, auto expanding and collapsing side menu for iOS written in Swift.
 
 
 
