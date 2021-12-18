@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lun-rD-UB4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cMc-Wb-Fpy">
+            <objects>
+                <viewController id="iIc-zO-7NO" customClass="ViewController" customModule="SideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="00w-1F-IBg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tuwaiq Academy" translatesAutoresizingMaskIntoConstraints="NO" id="stS-kv-dOH">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PnG-7k-iXx"/>
+                        <color key="backgroundColor" red="0.93422240020000002" green="0.97560423610000002" blue="0.99764460330000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="stS-kv-dOH" secondAttribute="bottom" id="632-02-Zgc"/>
+                            <constraint firstItem="stS-kv-dOH" firstAttribute="leading" secondItem="PnG-7k-iXx" secondAttribute="leading" id="Z8p-UU-b37"/>
+                            <constraint firstItem="stS-kv-dOH" firstAttribute="trailing" secondItem="PnG-7k-iXx" secondAttribute="trailing" id="ekY-5m-85m"/>
+                            <constraint firstItem="stS-kv-dOH" firstAttribute="top" secondItem="PnG-7k-iXx" secondAttribute="top" id="iZQ-6o-Hb8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6eY-2G-c7I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ls-q6-LdP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1031.8840579710145" y="91.741071428571431"/>
+        </scene>
+        <!--SubjectVC-->
+        <scene sceneID="Rcd-K1-PL6">
+            <objects>
+                <viewController storyboardIdentifier="dvc" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ziU-u1-eVC" customClass="SubjectVC" customModule="SideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EcO-dI-jk6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12" translatesAutoresizingMaskIntoConstraints="NO" id="OqD-iO-DOS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.93422240020000002" green="0.97560423610000002" blue="0.99764460330000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gd3-es-VRr"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OqD-iO-DOS" firstAttribute="leading" secondItem="gd3-es-VRr" secondAttribute="leading" id="K3M-ON-suG"/>
+                            <constraint firstItem="gd3-es-VRr" firstAttribute="bottom" secondItem="OqD-iO-DOS" secondAttribute="bottom" id="RgF-iI-N1l"/>
+                            <constraint firstItem="gd3-es-VRr" firstAttribute="trailing" secondItem="OqD-iO-DOS" secondAttribute="trailing" id="ej7-dO-XXM"/>
+                            <constraint firstItem="OqD-iO-DOS" firstAttribute="top" secondItem="gd3-es-VRr" secondAttribute="top" id="imK-iu-NMU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6sL-Yv-BbA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="87"/>
+        </scene>
+        <!--InstructorsVC-->
+        <scene sceneID="OAZ-gR-gJj">
+            <objects>
+                <viewController storyboardIdentifier="svc" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1Em-bv-GLc" customClass="InstructorsVC" customModule="SideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="clf-wO-KOb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="111111_3570" translatesAutoresizingMaskIntoConstraints="NO" id="zVn-cd-mWb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xMN-8u-Toy"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zVn-cd-mWb" firstAttribute="leading" secondItem="xMN-8u-Toy" secondAttribute="leading" id="5vZ-e2-NF5"/>
+                            <constraint firstItem="xMN-8u-Toy" firstAttribute="bottom" secondItem="zVn-cd-mWb" secondAttribute="bottom" id="AoC-2Q-36a"/>
+                            <constraint firstItem="zVn-cd-mWb" firstAttribute="top" secondItem="xMN-8u-Toy" secondAttribute="top" id="KO2-G8-oTX"/>
+                            <constraint firstItem="xMN-8u-Toy" firstAttribute="trailing" secondItem="zVn-cd-mWb" secondAttribute="trailing" id="kvj-pQ-mXc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iu8-xx-oL2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2560" y="85"/>
+        </scene>
+        <!--StudentsVC-->
+        <scene sceneID="bSh-8f-RWb">
+            <objects>
+                <viewController storyboardIdentifier="ovc" useStoryboardIdentifierAsRestorationIdentifier="YES" id="A6K-9k-6JM" customClass="StudentsVC" customModule="SideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yFD-UD-UqV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="505" translatesAutoresizingMaskIntoConstraints="NO" id="c9c-6G-BLi">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="C0k-TN-cpJ"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="c9c-6G-BLi" firstAttribute="leading" secondItem="C0k-TN-cpJ" secondAttribute="leading" id="23c-Jl-Q9A"/>
+                            <constraint firstItem="c9c-6G-BLi" firstAttribute="top" secondItem="C0k-TN-cpJ" secondAttribute="top" id="Cvx-gJ-uE8"/>
+                            <constraint firstItem="C0k-TN-cpJ" firstAttribute="bottom" secondItem="c9c-6G-BLi" secondAttribute="bottom" id="K3K-vw-8Pi"/>
+                            <constraint firstItem="C0k-TN-cpJ" firstAttribute="trailing" secondItem="c9c-6G-BLi" secondAttribute="trailing" id="M29-eW-iyW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b79-Tg-xk4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3281" y="89"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7TT-V9-Pun">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lun-rD-UB4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ge7-oa-EPh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iIc-zO-7NO" kind="relationship" relationship="rootViewController" id="nW4-mH-b08"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYO-Sp-H3h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="91.741071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="111111_3570" width="486" height="514"/>
+        <image name="12" width="349" height="144"/>
+        <image name="505" width="300" height="300"/>
+        <image name="Tuwaiq Academy" width="788" height="1280"/>
+    </resources>
+</document>
